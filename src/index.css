@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: TitilliumWebExtraLight;
+    src: url(assets/fonts/TitilliumWeb-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: TitilliumWebLight;
+    src: url(assets/fonts/TitilliumWeb-Light.ttf);
+}
+
+@font-face {
+    font-family: 'TitilliumWebRegular';
+    src: url('assets/fonts/TitilliumWeb-Regular.ttf');
+}
+
+@font-face {
+    font-family: TitilliumWebSemiBold;
+    src: url(assets/fonts/TitilliumWeb-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: TitilliumWebBold;
+    src: url(assets/fonts/TitilliumWeb-Bold.ttf);
+}
+
+@font-face {
+    font-family: TitilliumWebBlack;
+    src: url(assets/fonts/TitilliumWeb-Black.ttf);
+}
+
+@font-face {
+    font-family: TitilliumWebExtraBlack;
+    src: url(assets/fonts/TitilliumWeb-ExtraBlack.ttf);
+}
+
+html {
+    scroll-snap-type: y mandatory;
+}
+
+section {
+    scroll-snap-align: start;
+}
