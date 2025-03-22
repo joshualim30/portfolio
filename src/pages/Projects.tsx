@@ -2,6 +2,7 @@
 // 10/22/2024 - Joshua Lim
 
 import Portfolio from "../assets/images/portfolio-screenshot.jpeg";
+import WaveBBall from "../assets/images/wave-bball.jpeg";
 import Gray from "../assets/images/gray.jpeg";
 import React, { useState } from 'react';
 import { Card, CardHeader, CardBody, CardFooter, Button, Chip, Image } from "@nextui-org/react";
@@ -24,6 +25,14 @@ const projects: Project[] = [
     technologies: ["React", "TypeScript", "NextUI", "Tailwind CSS", "Framer Motion"],
     githubLink: "https://github.com/joshualim30/portfolio",
     liveLink: "https://www.joshualim.me"
+  },
+  {
+    title: "Team Wave Basketball",
+    description: "A website for the AAU basketball team, Team Wave, that I coach. Features a clean and modern design, and a responsive layout.",
+    image: WaveBBall,
+    technologies: ["React", "TypeScript", "NextUI", "Tailwind CSS", "Google Calendar"],
+    githubLink: "https://github.com/joshualim30/wave-bball",
+    liveLink: "https://wavebasketball.net/"
   },
   {
     title: "More Projects Coming Soon!",
