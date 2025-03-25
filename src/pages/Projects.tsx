@@ -35,6 +35,14 @@ const projects: Project[] = [
     liveLink: "https://wavebasketball.net/"
   },
   {
+    title: "Solace",
+    description: "Your personal wellness companion. A mobile app I am currently developing in flutter.",
+    image: Gray,
+    technologies: ["Flutter", "Dart", "Gemini", "AI"],
+    githubLink: "https://github.com/joshualim30/solace",
+    liveLink: null
+  },
+  {
     title: "More Projects Coming Soon!",
     description: "I'm currently working on more projects and will update this section as soon as they are ready.",
     image: Gray,
